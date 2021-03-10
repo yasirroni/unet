@@ -1,0 +1,6 @@
+tensorflow==2.4.1
+absl_py==0.12.0
+numpy==1.19.5
+# absl==0.0
+imageio==2.9.0
+matplotlib==3.3.4
