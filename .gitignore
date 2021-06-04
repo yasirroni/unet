@@ -6,3 +6,5 @@ env/
 
 data/
 samples/
+
+saved_model/

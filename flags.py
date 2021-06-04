@@ -21,3 +21,4 @@ def define_flags():
   flags.DEFINE_string('label_color_mode', 'grayscale',
                       'Color mode of label. One of "grayscale", "rgb", "rgba"')
   flags.DEFINE_integer('seed', 1, 'Seed for data augmentation')
+  flags.DEFINE_string('save_path','saved_model','Path to save model')
