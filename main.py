@@ -53,7 +53,7 @@ def run(flags_obj):
         filepath=checkpoint_path, 
         verbose=1, 
         save_weights_only=True,
-        save_freq=5*flags_obj.batch_size)
+        save_freq=flags_obj.steps_per_epoch)
 
     if not os.path.exists(flags_obj.save_path):
         os.mkdir(flags_obj.save_path)
